@@ -4,7 +4,7 @@
 Explain the purpose of this analysis.
 
 ## Results
-[Link to Dashboard](https://public.tableau.com/app/profile/andrea.pfeffer/viz/NYC_CitiBike_Challenge_16402264327910/NYCCitiBikeChallenge)
+[Link to NYC CitiBike Tableau Story Dashboard](https://public.tableau.com/app/profile/andrea.pfeffer/viz/NYC_CitiBike_Challenge_16402264327910/NYCCitiBikeChallenge)
 
 Using the visualizations you have in your Tableau Story, describe the results of each visualization underneath the image.
 - There are at least seven visualizations for the NYC Citibike analysis
