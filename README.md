@@ -1,7 +1,7 @@
 # NYC CitiBike with Tableau
 
 ## Overview
-Explain the purpose of this analysis.
+This analysis on the Citibike business in New York City was prepared to assist in showing the viability of a bike-sharing program in Des Moines to a potential investor. Pandas and Tableau calculations were used to transform the data, and a presentation was created using a Tableau visualization story.
 
 ## Results
 [Link to NYC CitiBike Tableau Story Dashboard](https://public.tableau.com/app/profile/andrea.pfeffer/viz/NYC_CitiBike_Challenge_16402264327910/NYCCitiBikeChallenge)
