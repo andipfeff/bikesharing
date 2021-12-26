@@ -1,7 +1,7 @@
 # NYC CitiBike with Tableau
 
 ## Overview
-This analysis on the Citibike business in New York City was prepared to assist in showing the viability of a bike-sharing program in Des Moines to a potential investor. Pandas and Tableau calculations were used to transform the data, and a presentation was created using a Tableau visualization story.
+This analysis on the Citibike business in New York City was prepared to assist in showing the viability of a bike-sharing program in Des Moines to a potential investor. Citibike data for the month of August 2019 was downloaded into a csv file and transformed using Pandas and Tableau calculations. The presentation was then created using a Tableau visualization story.
 
 ## Results
 
@@ -9,35 +9,47 @@ The following visualizations were created using Tableau worksheets, and combined
 
 [Link to NYC CitiBike Tableau Story Dashboard](https://public.tableau.com/app/profile/andrea.pfeffer/viz/NYC_CitiBike_Challenge_16402264327910/NYCCitiBikeChallenge)
 
-- Checkout Times for Users
+### **Checkout Times for Users** 
 
 ![User_Checkout_Times](https://user-images.githubusercontent.com/90863226/147290511-59026033-2e5f-4ac1-ab18-a89cacc004b2.png)
 
-- Checkout Times by Gender
+#### This visualization shows how many bikes are checked out and for how long. The tooltip shows the hours and minutes of trip along with the ride count for each trip duration. The visualization defaults to show trips in length between 0-3 hours, however there is an hour filter that the user can use to look at an length of trip(s).
+
+### **Checkout Times by Gender**
 
 ![Gender_Checkout_Times](https://user-images.githubusercontent.com/90863226/147290544-49a8107b-9ff5-4d28-b012-a75bd1392ea3.png)
 
-- Trips by Weekday per Hour
+#### viz description
+
+### **Trips by Weekday per Hour**
 
 ![Hrly_Weekday_Trips](https://user-images.githubusercontent.com/90863226/147290601-5cad9d34-29e2-432d-8589-8c5d5d092d45.png)
 
-- Trips by Gender (Weekday per Hour)
+#### viz description
+
+### **Trips by Gender (Weekday per Hour)**
 
 ![Weekday_Hrly_by_Gender](https://user-images.githubusercontent.com/90863226/147290635-ba9995c3-f896-4c29-b326-82d3dd83abe9.png)
 
-- User Trips by Gender by Weekday
+#### viz description
+
+### **User Trips by Gender by Weekday**
 
 ![Gender_Weekday_Trips](https://user-images.githubusercontent.com/90863226/147290675-6f42bdff-47b9-444c-915d-d5d15d5ffd27.png)
 
-- August Peak Hours
+#### viz description
+
+### **August Peak Hours**
 
 ![Aug_Peak_Hrs](https://user-images.githubusercontent.com/90863226/147290719-b62c6515-9f83-4a2c-ad6d-4677df51fb67.png)
 
-- Start and End Locations
+#### viz description
+
+### **Start and End Locations**
 
 ![Start_End_Locations](https://user-images.githubusercontent.com/90863226/147290736-232fe245-2fad-4016-ada9-981bb094bb8b.png)
 
-
+#### viz description
 
 ## Summary
 Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
