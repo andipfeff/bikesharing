@@ -5,7 +5,7 @@ This analysis on the Citibike business in New York City was prepared to assist i
 
 ## Results
 
-The following visualizations were created using Tableau worksheets, and combined using dashboards to create a Tableau Story for the presentation to the potential investor.
+The following visualizations were created using Tableau worksheets, and were combined using dashboards to create a Tableau Story for the presentation to the potential investor.
 
 ***[Link to NYC CitiBike Tableau Story Dashboard](https://public.tableau.com/app/profile/andrea.pfeffer/viz/NYC_CitiBike_Challenge_16402264327910/NYCCitiBikeChallenge)***
 
@@ -49,10 +49,11 @@ The following visualizations were created using Tableau worksheets, and combined
 
 ![Start_End_Locations](https://user-images.githubusercontent.com/90863226/147290736-232fe245-2fad-4016-ada9-981bb094bb8b.png)
 
-###### viz description
+###### These two map visualizations show the frequency of ride station use for both the starting location of each ride (map on the left with blue plot points) along with the ending location of each ride (map on the right with orange plot points).  The bigger and darker the plot point the more frequently that station is used as a starting/stopping point for each ride.  The tooltip shows the station name, latitude/longitude points, and the ride count.
 
 ## Summary
-Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
-1. create a route map that contains both filters and color changing paramaters for the following dimenstions: day/time, gender, customer, type, and/or bike ID
-2. create a station heat map for both starting stations & destination points segmented by user type to see the difference in subscribers vs customers 
-3. create a bar chart showing ride counts by birth year by customer type
+These visualizations do a great job of showing how the Citibike business is working in New York City. A story can be put together to talk about peak ridership days/times, the differences in ridership between genders and subscriber types, as well as talking about the location of bike stations.  This is a great start to having the information the investors are looking for, however I think it would be beneficial to also include the following additional visualizations:
+
+1. A dynamic route map that shows the connection between the starting station and ending station. I would include parameters to define which dimension represents the color breakdown of the routes, along with filters for each of the following dimensions: day/time, gender, customer, type, and/or bike ID.
+2. A station heat map for both starting & destination points segmented by user type to see the difference in subscribers vs customers (this could be done creating a new visualization or by modifying the current Top Starting Locations and Top Ending Locations visualizations). 
+3. A bar chart showing ride counts by birth year by customer type to look at the age segmentation of ridership for both customer types.  This could be used to look at the population demographics between NYC & Des Moines to help prove that there is a viable customer base.
