@@ -4,11 +4,11 @@
 This analysis on the Citibike business in New York City was prepared to assist in showing the viability of a bike-sharing program in Des Moines to a potential investor. Pandas and Tableau calculations were used to transform the data, and a presentation was created using a Tableau visualization story.
 
 ## Results
+
+The following visualizations were created using Tableau worksheets, and combined using dashboards to create a Tableau Story for the presentation to the potential investor.
+
 [Link to NYC CitiBike Tableau Story Dashboard](https://public.tableau.com/app/profile/andrea.pfeffer/viz/NYC_CitiBike_Challenge_16402264327910/NYCCitiBikeChallenge)
 
-Using the visualizations you have in your Tableau Story, describe the results of each visualization underneath the image.
-- There are at least seven visualizations for the NYC Citibike analysis
-- There is a description of the results for each visualization
 - Checkout Times for Users
 
 ![User_Checkout_Times](https://user-images.githubusercontent.com/90863226/147290511-59026033-2e5f-4ac1-ab18-a89cacc004b2.png)
