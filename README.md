@@ -13,19 +13,19 @@ The following visualizations were created using Tableau worksheets, and were com
 
 ![User_Checkout_Times](https://user-images.githubusercontent.com/90863226/147290511-59026033-2e5f-4ac1-ab18-a89cacc004b2.png)
 
-###### This line graph visualization shows how many bikes are checked out and for how long. The tooltip shows the hours and minutes of the trip length along with the ride count. It defaults to show trips in length between 0-3 hours, however there is an hour filter that the user can use to filter to any length of trip(s).
+###### This line graph visualization shows the number of bikes that are checked out for each trip duration length. The tooltip shows the hours and minutes of the trip length along with the ride count. It defaults to show trips in length between 0-3 hours, however there is an hour filter that the user can use to filter to any length of trip(s).
 
 - ### **Checkout Times by Gender**
 
 ![Gender_Checkout_Times](https://user-images.githubusercontent.com/90863226/147290544-49a8107b-9ff5-4d28-b012-a75bd1392ea3.png)
 
-###### Similar to the first vizualization, this line graph also shows the length of time that bikes are checked out only this time broken down by gender. The tool tip shows the hours/minutes of the trip duration along with the gender value and ride count. There are also filters for both hour length of trip duration and gender, with the default view showing trips between 0-3 hours for all genders.
+###### Similar to the first vizualization, this line graph also shows the number of bikes that are checked out for each trip duration length, only this time broken down by gender. The tool tip shows the hours/minutes of the trip duration along with the gender value and ride count. There are also filters for both the hour length of trip duration and gender, with the default view showing trips between 0-3 hours for all genders.
 
 - ### **Trips by Weekday per Hour**
 
 ![Hrly_Weekday_Trips](https://user-images.githubusercontent.com/90863226/147290601-5cad9d34-29e2-432d-8589-8c5d5d092d45.png)
 
-###### This heatmap visualization shows total ride count broken down by weekday and hour of the day, with the lighter orange showing the less busy times and the darker orange showing the busier times. The tooltip contains the hour of the ride start time, the weekday, and the ride count.
+###### This heatmap visualization shows total ride count broken down by weekday and hour of the day, with the lighter orange showing the less busy times and the darker orange showing the busier times. The tooltip contains the hour of the ride start time, weekday, and ride count.
 
 - ### **Trips by Gender (Weekday per Hour)**
 
@@ -37,7 +37,7 @@ The following visualizations were created using Tableau worksheets, and were com
 
 ![Gender_Weekday_Trips](https://user-images.githubusercontent.com/90863226/147290675-6f42bdff-47b9-444c-915d-d5d15d5ffd27.png)
 
-###### This heatmap visualization shows the breakdown of ridership by day and gender broken out between subscribers and general customers. The lighter the blue, the lower the ride count, and the darker the blue being for the busiest days.  The tooltip shows the gender, user type, weekday, and ride count.  There are also filters for both gender and user type.
+###### This heatmap visualization shows the breakdown of ridership by day, gender, and user type. The lighter the blue the lower the ride count, and the darker the blue being for the busiest days.  The tooltip shows the gender, user type, weekday, and ride count.  There are also filters for both gender and user type.
 
 - ### **August Peak Hours**
 
@@ -49,11 +49,11 @@ The following visualizations were created using Tableau worksheets, and were com
 
 ![Start_End_Locations](https://user-images.githubusercontent.com/90863226/147290736-232fe245-2fad-4016-ada9-981bb094bb8b.png)
 
-###### These two map visualizations show the frequency of ride station use for both the starting location of each ride (map on the left with blue plot points) along with the ending location of each ride (map on the right with orange plot points).  The bigger and darker the plot point the more frequently that station is used as a starting/stopping point for each ride.  The tooltip shows the station name, latitude/longitude points, and the ride count.
+###### These two map visualizations show the frequency of ride station use for both the starting location of each ride (map on the left with blue plot points) along with the ending location of each ride (map on the right with orange plot points).  The bigger and darker the plot point the more frequently that station is used as a starting/stopping point. The tooltip shows the station name, latitude/longitude points, and the ride count.
 
 ## Summary
 These visualizations do a great job of showing how the Citibike business is working in New York City. A story can be put together to talk about peak ridership days/times, the differences in ridership between genders and subscriber types, as well as talking about the location of bike stations.  This is a great start to having the information the investors are looking for, however I think it would be beneficial to also include the following additional visualizations:
 
-1. A dynamic route map that shows the connection between the starting station and ending station. I would include parameters to define which dimension represents the color breakdown of the routes, along with filters for each of the following dimensions: day/time, gender, customer, type, and/or bike ID.
-2. A station heat map for both starting & destination points segmented by user type to see the difference in subscribers vs customers (this could be done creating a new visualization or by modifying the current Top Starting Locations and Top Ending Locations visualizations). 
-3. A bar chart showing ride counts by birth year by customer type to look at the age segmentation of ridership for both customer types.  This could be used to look at the population demographics between NYC & Des Moines to help prove that there is a viable customer base.
+1. A dynamic route map that shows the connection between the starting station and ending station. I would include parameters to define/change which dimension represents the color breakdown of the routes, along with including filters for each dimension. The dimensions I would use for both the color choice paramater and filters would be: day/time, gender, customer type, and/or bike ID.
+2. A station heat map for both starting & ending points segmented by user type to see the difference in subscribers vs customers (this could be done creating a new visualization or by modifying the current Top Starting Locations and Top Ending Locations visualizations). 
+3. A bar chart showing ride counts by birth year by customer type showing the age segmentation of ridership for both customer types.  This could be used to look at the population demographics between NYC & Des Moines to help prove that there is a viable customer base.
