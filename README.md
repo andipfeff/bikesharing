@@ -1,7 +1,7 @@
 # NYC CitiBike with Tableau
 
 ## Overview
-This analysis on the Citibike business in New York City was prepared to assist in showing the viability of a bike-sharing program in Des Moines to a potential investor. Citibike data for the month of August 2019 was downloaded into a csv file and transformed using Pandas and Tableau calculations. The presentation was then created using a Tableau visualization story.
+This analysis, on the Citibike business in New York City, was prepared to assist in showing the viability of a bike-sharing program in Des Moines to a potential investor. Citibike data for the month of August 2019 was downloaded into a csv file and transformed using Pandas and Tableau calculations. The presentation was then created using a Tableau visualization story.
 
 ## Results
 
